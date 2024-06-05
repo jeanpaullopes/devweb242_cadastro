@@ -29,7 +29,7 @@ export default defineComponent({
   },
 
   created() {
-    services.getProdutos((prods) => {
+    services.produtos.getProdutos((prods) => {
       this.arrProdutos = prods;
     });
   },

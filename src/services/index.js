@@ -1,27 +1,12 @@
 import axios from "axios";
 import { Notify } from "quasar";
+import produtosServices from "./produtosServices";
 
 const jsonAPI = axios.create({
   baseURL: process.env.URL,
 });
 const services = {
-  getProdutos: (callback) => {
-    jsonAPI
-      .get("produtos")
-      .then((retorno) => {
-        callback(retorno.data);
-      })
-      .catch((erro) => {
-        Notify.create({
-          message: erro.message,
-          color: "negative",
-          position: "bottom",
-          timeout: 3000,
-        });
-        //this.mensagemErro(erro.message);
-      });
-  },
-
+  produtos: produtosServices,
   mensagem: (msg) => {
     Notify.create({
       message: msg,
