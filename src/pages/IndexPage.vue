@@ -1,5 +1,7 @@
 <template>
   <q-page class="flex flex-center">
+    {{ cliente }}
+    <RouterLink to="/novoCliente">Novo cliente</RouterLink>
     <ListaProdutos
       :produtos="arrProdutos"
       @comprar="onComprar"
@@ -25,6 +27,7 @@ export default defineComponent({
   data() {
     return {
       arrProdutos: [],
+      cliente: null,
     };
   },
 
@@ -32,6 +35,12 @@ export default defineComponent({
     services.produtos.getProdutos((prods) => {
       this.arrProdutos = prods;
     });
+    cartStore.cliente = {
+      id: "0000",
+      nome: "Brad Pitt",
+      cpf: "123.345.789-00",
+    };
+    this.cliente = cartStore.cliente;
   },
   methods: {
     onComprar(produto) {

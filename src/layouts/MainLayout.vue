@@ -12,7 +12,14 @@
         />
 
         <q-toolbar-title> Quasar App </q-toolbar-title>
-        <q-btn dense color="purple" round icon="shopping_cart" class="q-ml-md">
+        <q-btn
+          dense
+          color="purple"
+          round
+          icon="shopping_cart"
+          to="/checkout"
+          class="q-ml-md"
+        >
           <q-badge color="red" floating>{{ cart.length }}</q-badge>
         </q-btn>
         <q-space />

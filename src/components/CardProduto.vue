@@ -61,11 +61,11 @@ export default {
   emits: ["comprar", "retirar", "detalhes"], // eventos emitidos pelo componente
   created() {
     // método executado quando o componente é criado
-    console.log(this.produto);
+    //console.log(this.produto);
   },
   mounted() {
     // metodo executado quando o componente é montado
-    console.log(this.produto);
+    //console.log(this.produto);
   },
   data() {
     // dados do componente
