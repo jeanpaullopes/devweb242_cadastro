@@ -1,19 +1,58 @@
 {
-  "clientes": [],
+  "clientes": [
+    {
+      "id": "f595",
+      "nome": "Jean Paul",
+      "cpf": "112.121.222-21"
+    },
+    {
+      "nome": "Jorge Luiz updated",
+      "cpf": "111.111.111-11",
+      "id": "711c"
+    },
+    {
+      "id": "9489",
+      "nome": "Jorge Luiz novo",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": "48a1",
+      "nome": "Jorge Luiz novo",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": "a43c",
+      "nome": "Jorge Luiz novo",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": "695c",
+      "nome": "Jorge Luiz novo",
+      "cpf": "111.111.111-11"
+    }
+  ],
   "produtos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Coca-Cola",
-      "preco": 5.0,
+      "preco": 5,
       "imagem": "data:image/webp;base64,UklGRigMAABXRUJQVlA4IBwMAADwNACdASqFAIUAPk0gjkUioiET/GUsKATEsQBrUvkvj0d/R/kB7SFv/ve9gFE7jv0/27/OD0o/m/2AOcl5iv1z/ZT3gP99+sHun/vvqAf1D+59aj6C37c+mF+1Xwl/2T/bftb8B37L/+TNAOqr4X+KPzh7dbt3qHfIft/+e8temn9Qv8V/lP+I34UAX5h/RP9R/b+Qj7B/5H7OfsA/VP/Rfmd60nho+X/SB9gH8l/rv+f/rv5M/G5/sf6PzlfPn/W/y3wD/zH+o/871vPXz+1///91T9kjAeS/oWes8n8/cEpi09p83llkMGa7iXvyxjvFqyMu0DmqEPAHIML5qgQav9UpUCR1OlyAOuROzowM1WSex5WAPtydbDWTZDdnBi4GYjHIRvaRJ/Wg7TZ0VcxG/ycIZj68ASDlHnANvmTtHPNqaoOkLZoNQGXoU1PfwcGr04b+Ka4UeCV9H/1Ltp+UdHL2wOS7Kf4Myf2A0VdHUvKXxh0e2QYByhLWB6dIvVKHdqFMkcDKT7fwXdTFzqWxnI2ftS2FKWBcBr3/oMinz/1XT6zY00XWfmI0DG5GRgAA/v2BAdgAaHrL1mxiXT4uZybaP/y25mjVCQOiZO6TS6NfXdV8fUdIw0Ffr6KbcZpZ5vix5H4tSLb9o72u+IOkJujr665FNfPX8d3YvbozHehKNR4GfvrWbkZFpZaDfBAYL6948f0dnk8ex71ie3785M5cCHX9Po2PQfaoHMiR1OypGQlA7zIHK37tMZe0ufZmuG6RhontTAmdQv6brdAtIvxuWaBzc9s7d0Lzy78J3JjWApi1p9xIakd7+9s8JnIskBse+LDX7JBQIoR0Hlw+jorAnP+P/zjebCrnQni59amPzaEtYgZ+Gr5+qnX6D1GwSKaW9wAO1ohhzeiwLTLdW/kwr4DXeej+/Q+Xj9W5NGTGXD/UO/COYD/13B0D+vI3ecSM/k68MU9PpIgn+DckmX7XwWnQQAQeq2oWvpgP/Pf9xPSfL2oHhBRtBnSCqgIdv2tGRGOjyrSIpUfE6m5ioKrz4hUB5jHEpsrKTZpPkZSy0DMaly9uEJPZyOsSazO/Et/4FevFgNzhLGb+GKXZf59GsDmhrDXbdrxjRhmfzg2tczLjm5us2whoRoofPaMgB/5rZDxeGtV7pKrq/ou6dAsvqs12cJtj+2wdr9mCv+HNcxVFabLYwF5R6SRrMEfjSbYTwj9HFF6MN/nwLY7jRT06atFIiCXxy+enTIFOVdJwJhVKRrw3/YVbJE06ZmQyWF+gRWtcbFK9XMWR9hmQwW950mGWJizuG/d/pNqN+TMvprzrtcvRh23BiVm7UzBslPPlGm8cfpVbOsHqDroshLSN8B7stwXY+DWCI2+GrQQALAMVid5+4a1YjAxmdDYll7eGsKHSCJUfoSVH4LHNZ/TV+HQBzOp5hmaHOiWrUvHcJHI81WpngF5868GJ4SMTpxy5Ly8ieswvajlEKt3x/bKvagV1qsEtZ6Hytp3XINoG7tW018E2nCs6wbEI+BhxFnOLWZOACEHgUvJ38RtPwuNqmUy+hWIDr4ij8YLq9YKjpSV+7DbQ59j05345FzxoO/MZ9FzcACa9OrfW/H5MOPL35cA+bm5lHCBi9HTDF3kdc9iHtjvLevGYx3Zu4EQNLi3nwarecZqDqAf0dtxEZfzH8h6wsOwhhv6TTH/vIIn0L9nSwyFrUU41D457ag5Ev4+JTpFj3as+xkTEBbgmvztg/0A+SaxRC616Jg48dCLmUvD0jUHn9SNGGmfjOiYYSPROleDFl2O4eoFFfTwB/+cZc9iYageTcqh1rawV32/iqAGTPTHV3ehDx6kuPL+jU90XQN5HMFrrRGbgKhnAnJZhwRdzfLT95pxvHin2ZNWgFe7E7gA36Iy5eMVPcAd7nZt+qFleNc0qcYs5A692VWhe9KjHdahAc0vKb51wwJJiYUsWwZQDh4Ze1llWxoDaoatSffkJhOgQkUmF7gyjzyrLOu3uodgjlBK3/scicH/5wbYPcSEKHF/GCBRs03NfjHR08rXzrlu9cJzROAIuUV6KSNf3akPKUVvZMJqEfE5I2/NXhR/h4SrYgiNPyUZqhS8B4KqEPnX7t56dTjsBQWfx+F9Z0AkKxDjFSsoit5VNdDCQk/Sl0Sgf+qQJrtdpX3pKCDq5gZ47Qyf9QspGNISbWZE0UhTBBFeWep+ED/nXBjx2uT2r+sL3gpipKKLf1cZDvzUMGuipQEysvQEj+xWkr+48ZFV1/Dh9YYqWPVprC7J4rql7b6CxqUTjFrO+Bnx9Mkdk/Wn8EzaX69dS91zeb9eiV4vDJrLr7Lx+p5mUh5nbZxanRhxXf+goHqXNdK65vixWjiTH3S56xiWYGjsaMhBioXM40Yuc0ZvBMSzZlvzQ7sJpFZAogGaM1fwvcVRAzqz8+L/9MPDjPzVJKe6MpcI94ytVUm7lJNfyrBCLX0KBP/cfhBNA7IyP+jJTtqT9UYSnqX/8mxzWm768rLICa6uRjHx8tZKTflGcGPx4vIctL/dPzaJAjubStI1v/KlBiCGyJ3ZChZpEyTzyB7CrmBKQSIg51w7FGPL1/7rge4leOtQK7uchhQLgx2eLE8K8bCX6P/RQw0V6Wx9vXnzSs2BrA/Yl/WSbrQo8J4vIYhTpljwtG8VwFzCcJ5YHcyy+Z303+j+UAt8bjr4onbWmntwn2NNdb37CuxC1pLobGyC8/mMXdPd5HQe25bNYPU7/K6CnDue/80kvn9/vYzThLwn8s+T2ogz/5UiI7U34W8cfnxaeXc/Ui64PVVhbZizZVW+7w6Uyz8+BqRRhDj9Trt/+/7nb5Z6+AegvLxp23aXytgQlzdB60EGxjI//lABsuop4doddPqM+UD+Q4+v25OAjtGnAAfkPf+oB5ujn6xTvez8GPmkzFhp7su23D4YqudB5vjqXm0Eh67Y9rvT0y0/q8x5hlwePgz5ibztuxdIDuDbxMvk10Anow5dbvYIk7qbwhp3VFSjheQZlu/N9aiHc/Nh5G5BsVCqoJOBmKuVxYthIpK0sT3oQniyYEYjwUPnzrn4m3HwhOgKg06PPKfTMwmYi7EzRHYwD1a210SX53me4FwTPxarxx4q39+BHu1YRJ+E4SrksU/HKrDujLtm2rbKEUsqqpWwrgt+L/RYTPmCGD7FiT9tNs6Hy2r68SYJcc50epJGZgJAbkmxCoH5CYTE/Lw8rF78nJjbiPoG3wr797ejHtzMV8jZzSbtTowC0mN7a9NO+OC1eiXUffp/qwxlhD3JJ5gMomZuOlFhrbVa38RZmsH+L6F8CTp5DIK99MUDskxqsm3LpOQ2Ct+2k6epHCX+4Q5/YKHo1GGf+aGdeWzq7krXM/PhoL13TeAXeRVdN1dXNl5DE+HgV7LNXZvQTK5fzLctplDJzZRrpjbY2/+XCHlPisUkbNvS1cz4uvLmybOBNom7YGmwGrGVKuT1Pw1EC4iYSl+io04h7WXWPUS/sVST/ILpXNVNzb41eqoBF2RjjycXgDVIDwrh6/v89z5ss1z75nDHMkfdMpUU0yluxBRCOivq/O1etB79DIuNfwfnvUvHdKHcoOG41HQ+mR5Aa2cYzKshKRBFSMGmqmPr5iKMd16aWxeVvqwYvtrC+6U1L8t8jHs9h2l4vR296nij+RoahZHscvev5ygb7EhCjpWD03+zhCGaPjcj/VZjHwY1d4OgTZej2UXrMMJcvoc7h4PNkIE6KnHa5TcoIcdjfmyJeauwwbaYDNStlHFyfl+RcERaIsSVZtOLr0x8Tm+bM5iK/ahyt+tm2yM3nmbxoTTNp3k91hWzUqBA4adSangOjcrc1Ijngn6xXliU74KDzxb09SwD1myV5i3QnNYEva8KmgwD+7wB3sYgiTa4mMACJH+AUn6deItPiTsWuj7d9Kxa1ypRQlqxw/wfaTKUSzC8PWXXOhtdW5XuTpcK7D/XaVqNsJBnSuQhVvEEdup2FnK4Yd2EB9890JotaL/lXwFdieZVQVj7lV1EuYZJeumUJCO6RAoTUnDNnQVvMaCC09LcKJVgXt4yNWqJg/iJ2t5WXhFMEZ3hzdi63WB8OCnlObKLMec12fEaGFqAAAAAA"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Pepsi",
-      "preco": 4.0,
+      "preco": 4,
       "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR3uiRgVBGRBv2VmE-PQUA8ewZmFaO9blabBMuHQS5xyqEakwbGr8ivwHxWC_A_9BK8MJWsi_i-apBuMrqJjYHT1eF4gatRwHS1EzdbAWamp5cOoW_OHInvhjwgszGfZxwHDMzs3nA&usqp=CAc"
     },
-    { "id": 3, "nome": "Fanta", "preco": 3.0 },
-    { "id": 4, "nome": "Guaraná", "preco": 2.0 }
+    {
+      "id": "3",
+      "nome": "Fanta",
+      "preco": 3
+    },
+    {
+      "id": "4",
+      "nome": "Guaraná",
+      "preco": 2
+    }
   ]
 }
